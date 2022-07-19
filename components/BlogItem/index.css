@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.itemImage {
+  width: 35vw;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.itemContainer {
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+.avatar {
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+.authorDetails {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.author {
+  color: #8e8e8e;
+}
+.linkStyle {
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .itemImage {
+    width: 60vw;
+    border-radius: 5px;
+  }
+  .itemContainer {
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .topic {
+    color: #8e8e8e;
+  }
+  .author {
+    font-size: 15px;
+    text-decoration: none;
+  }
+}
